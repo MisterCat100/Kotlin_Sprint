@@ -1,4 +1,5 @@
 package Lesson1
+// task_5
 
 fun main() {
     var seconds = 6480
@@ -10,14 +11,8 @@ fun main() {
     seconds -= 60 * minutes
     minutes -= 60 * hours
 
-
-    print(0)
-    print(hours)
-    print(':')
-    print(minutes)
-    print(':')
-    print(seconds)
-    println(0)
+    val answer = String.format("0%d:%d:%d0", hours, minutes, seconds)
+    println(answer)
 }
 
 
