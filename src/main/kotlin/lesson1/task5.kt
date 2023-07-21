@@ -1,4 +1,4 @@
-package Lesson1
+package lesson1
 // task_5
 
 fun main() {

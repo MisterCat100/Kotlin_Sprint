@@ -1,4 +1,4 @@
-package Lesson1
+package lesson1
 
 fun main() {
     val flightYear = "1961"
