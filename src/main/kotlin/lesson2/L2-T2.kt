@@ -14,5 +14,4 @@ fun main() {
     println(allInternPayment)
     print(middlePayment)
 
-
 }
