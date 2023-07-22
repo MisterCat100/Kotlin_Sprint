@@ -1,8 +1,10 @@
 package lesson2
-// урок-2 задача-3
+// задача-3 урок-2
 
 fun main() {
-    val outTimeMinuteTotal = 9 * 60 + 39
+    val outTimeHour = 9
+    val outTimeMinute = 39
+    val outTimeMinuteTotal = outTimeHour * 60 + outTimeMinute
     val lengthTimeMinute = 457
 
     val inTimeHour = (outTimeMinuteTotal + lengthTimeMinute) / 60
