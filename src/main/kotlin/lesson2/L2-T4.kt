@@ -12,5 +12,4 @@ fun main() {
     println(String.format("Кристальная руда: %.0f", bonusCrystalOre))
     print(String.format("Железная руда: %.0f", bonusIronOre))
 
-
 }
