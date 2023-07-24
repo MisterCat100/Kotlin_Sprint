@@ -9,10 +9,8 @@ fun main() {
     val percentsPerYear = 16.7
     val lengthYear = 20
 
-
     val total = summa * ((1 + (percentsPerYear / 100)).pow(lengthYear))
 
     print(String.format("Ответ: %.3f", total))
-
 
 }
