@@ -6,11 +6,11 @@ fun main() {
     var toTurn = "E4"
     var turnNum = 1
 
-    println("походили с $fromTurn на $toTurn, номер хода: $turnNum")
+    println("$fromTurn-$toTurn;$turnNum")
 
     fromTurn = "D2"
     toTurn = "D3"
     turnNum += 1
 
-    println("походили с $fromTurn на $toTurn, номер хода: $turnNum")
+    println("$fromTurn-$toTurn;$turnNum")
 }
