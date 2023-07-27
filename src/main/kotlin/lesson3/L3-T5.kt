@@ -4,9 +4,10 @@ package lesson3
 fun main() {
     val info = "D2-D4;0"
 
-    val fromTurn = info.slice(0..1)
-    val toTurn = info.slice(3..4)
-    val numTurn = info.slice(6..6)
+    val parts = info.split("-", ";")
+    val fromTurn = parts[0]
+    val toTurn = parts[1]
+    val numTurn = parts[2]
 
     println(fromTurn)
     println(toTurn)
