@@ -3,11 +3,11 @@ package lesson4
 
 fun main() {
     print(String.format("Благоприятные ли условия сейчас для роста бобовых? %b",
-        weatherIsSunny and tentIsOpen and (airWet == 20) and (season != "зима")))
+        WEATHER_IS_SUNNY and TENT_IS_OPEN and (AIR_WET == 20) and (SEASON != "зима")))
 
 }
 
-const val weatherIsSunny = true
-const val tentIsOpen = true
-const val airWet = 20
-const val season = "зима"
+const val WEATHER_IS_SUNNY = true
+const val TENT_IS_OPEN = true
+const val AIR_WET = 20
+const val SEASON = "зима"
