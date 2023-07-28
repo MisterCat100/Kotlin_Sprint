@@ -4,8 +4,8 @@ package lesson4
 
 fun main() {
     println(String.format("Доступность столиков на сегодня: %b\n" +
-            "Доступность столиков на завтра: %b", (places != usedTablesToday), (places != usedTablesTomorrow)))
+            "Доступность столиков на завтра: %b", (PLACES != USED_TABLES_TODAY), (PLACES != USED_TABLES_TOMORROW)))
 }
-const val places = 13
-const val usedTablesToday = 13
-const val usedTablesTomorrow = 13 - 4
+const val PLACES = 13
+const val USED_TABLES_TODAY = 13
+const val USED_TABLES_TOMORROW = 9
