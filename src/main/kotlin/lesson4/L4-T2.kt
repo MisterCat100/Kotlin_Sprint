@@ -9,12 +9,12 @@ fun main() {
 
     println(String.format("Первый груз является 'Average': %b\n" +
             "Второй груз является 'Average': %b",
-            (m1 >= M_FROM) and (m1 <= M_TO) and (v1 < V_TO),
-            (m2 >= M_FROM) and (m2 <= M_TO) and (v2 < V_TO)
+            (m1 >= MIN_WEIGHT) and (m1 <= MAX_WEIGHT) and (v1 < MAX_SIZE),
+            (m2 >= MIN_WEIGHT) and (m2 <= MAX_WEIGHT) and (v2 < MAX_SIZE)
         ))
 
 }
 
-const val M_FROM = 35
-const val M_TO = 100
-const val V_TO = 100
+const val MIN_WEIGHT = 35
+const val MAX_WEIGHT = 100
+const val MAX_SIZE = 100
