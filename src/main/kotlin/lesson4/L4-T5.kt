@@ -8,8 +8,12 @@ fun main() {
     val isNormalWeather = readln().toBoolean()
 
     print("Корабль может приступить к долгосрочкому плаванию: " +
-            "${!isDamaged and (staff in 55 until 70) and (cratesFood > 50)
-                    or isDamaged and (staff == 70) and isNormalWeather and (cratesFood > 50)}")
+            "${!isDamaged and (staff in MIN_STAFF until MAX_STAFF) and (cratesFood > MIN_CRATES_OF_FOOD)
+                    or isDamaged and (staff == MAX_STAFF) and isNormalWeather and (cratesFood > MIN_CRATES_OF_FOOD)}")
 
 }
+
+const val MIN_STAFF = 55
+const val MAX_STAFF = 70
+const val MIN_CRATES_OF_FOOD = 50
 
